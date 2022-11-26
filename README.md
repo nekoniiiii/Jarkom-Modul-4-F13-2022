@@ -123,10 +123,38 @@ Kemudian, lakukan hal yang sama pada setiap interface pada device. Berikut adala
 
 #### E
 
+![image](https://user-images.githubusercontent.com/80830860/204088261-e0a37a16-882d-4aa4-8f86-cac56f4503e4.png)
+
+| Subnet | #1 | #2 | Netmask |
+|--|--|--|--|
+| E1 | D1 /20 | A5 /26 | /19 |
+| E2 | D2 /21 | D3 /22 | /20 |
+
 #### F
+
+![image](https://user-images.githubusercontent.com/80830860/204088307-6d9a2226-6cfd-484d-91d4-70a9c3449c8f.png)
+
+| Subnet | #1 | #2 | Netmask |
+|--|--|--|--|
+| F1 | E1 /19 | A6 /30 | /18 |
+| F2 | E2 /20 | A15 /30 | /19 |
 
 #### G
 
+![image](https://user-images.githubusercontent.com/80830860/204088362-1765eec9-f247-4f5f-b1d7-53b0b3df6a61.png)
+
+| Subnet | #1 | #2 | Netmask |
+|--|--|--|--|
+| G1 | F2 /19 | C3 /21 | /18 |
+
 #### H
 
+![image](https://user-images.githubusercontent.com/80830860/204088401-32ec4027-8718-4e3a-946e-568e947971f9.png)
+
+| Subnet | #1 | #2 | Netmask |
+|--|--|--|--|
+| H1 | G1 /18 | F1 /18 | /17 |
+
 #### CIDR's Tree
+
+![image](https://user-images.githubusercontent.com/80830860/204088424-cf272d11-ef0e-4e4f-a451-8ce3e40aa969.png)
