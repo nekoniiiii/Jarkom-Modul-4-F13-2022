@@ -462,3 +462,285 @@ Berikut list Static Route yang digunakan: </br>
 #### CIDR's Tree
 
 ![image](https://user-images.githubusercontent.com/80830860/204088424-cf272d11-ef0e-4e4f-a451-8ce3e40aa969.png)
+
+### Configuration
+
+The Resonance
+```
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+    address 10.35.98.1
+    netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+    address 10.35.32.1
+    netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+    address 10.35.100.1
+    netmask 255.255.252.0
+
+auto eth4
+iface eth4 inet static
+    address 10.35.80.1
+    netmask 255.255.255.252
+```
+
+The Order
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.32.2
+    netmask 255.255.255.252
+    gateway 10.35.80.1
+
+auto eth1
+iface eth1 inet static
+    address 10.35.16.1
+    netmask 255.255.255.192
+
+auto eth2
+iface eth2 inet static
+    address 10.35.8.1
+    netmask 255.255.255.252
+```
+
+Ashaf 
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.16.2
+    netmask 255.255.255.192
+    gateway 10.35.16.1
+```
+
+The Minister
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.8.2
+    netmask 255.255.255.252
+    gateway 10.35.8.1
+
+auto eth1
+iface eth1 inet static
+    address 10.35.4.1
+    netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+    address 10.35.1.1
+    netmask 255.255.255.252
+```
+
+Guideau
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.4.2
+    netmask 255.255.252.0
+    gateway 10.35.4.1
+```
+
+The Dauntless
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.1.2
+    netmask 255.255.255.252
+    gateway  10.35.1.1
+
+auto eth1
+iface eth1 inet static
+    address 10.35.0.1
+    netmask 255.255.255.0
+
+```
+Johan 
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.0.2
+    netmask 255.255.255.0
+    gateway 10.35.0.1
+```
+
+Phanora (150 host)
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.0.3
+    netmask 255.255.255.0
+    gateway 10.35.0.1
+```
+The Instrument
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.80.2
+    netmask 255.255.255.252
+    gateway 10.35.32.1
+
+auto eth1
+iface eth1 inet static
+    address 10.35.68.1
+    netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+    address 10.35.73.1
+    netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+    address 10.35.74.1
+    netmask 255.255.255.128
+```
+Matt Cugat (120 host)
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.74.2
+    netmask 255.255.255.128
+    gateway 10.35.74.1
+```
+
+The Firefist
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.68.2
+    netmask 255.255.255.252
+    gateway 10.35.68.1
+
+auto eth1
+iface eth1 inet static
+    address 10.35.66.1
+    netmask 255.255.248.0
+
+auto eth2
+iface eth2 inet static
+    address 10.35.64.1
+    netmask 255.255.255.0
+```
+
+Keith 
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.64.2
+    netmask 255.255.255.0
+    gateway 10.35.64.1
+```
+
+The Queen
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.64.3
+    netmask 255.255.255.0
+    gateway 10.35.64.1
+
+auto eth1
+iface eth1 inet static
+    address 10.35.65.1
+    netmask 255.255.255.252
+```
+
+The Witch
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.65.2
+    netmask 255.255.255.252
+    gateway 192.190.65.1
+```
+Oakleave 
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.66.2
+    netmask 255.255.248.0
+    gateway 10.35.66.1
+```
+
+The Profound
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.73.2
+    netmask 255.255.255.252
+    gateway 10.35.73.1
+
+auto eth1
+iface eth1 inet static
+    address 10.35.72.129
+    netmask 255.255.255.128
+
+auto eth2
+iface eth2 inet static
+    address 10.35.72.1
+    netmask 255.255.255.128
+```
+
+Helga 
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.72.130
+    netmask 255.255.255.128
+    gateway 10.35.72.129
+```
+Spendrow 
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.72.2
+    netmask 255.255.255.128
+    gateway 10.35.72.1
+```
+
+The Magical
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.98.2
+    netmask 255.255.255.252
+    gateway 10.35.98.1
+
+auto eth1
+iface eth1 inet static
+    address 10.35.96.1
+    netmask 255.255.254.0
+```
+Coverkt 
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.96.2
+    netmask 255.255.254.0
+    gateway 10.35.96.1
+```
+
+Haines 
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.96.3
+    netmask 255.255.254.0
+    gateway 10.35.96.1
+```
+
+The Beast
+```
+auto eth0
+iface eth0 inet static
+    address 10.35.100.2
+    netmask 255.255.252.0
+    gateway 10.35.100.1
+ ```
