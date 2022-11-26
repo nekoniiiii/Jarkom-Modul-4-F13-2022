@@ -60,3 +60,45 @@ Berdasarkan pembagian tadi, atur IP untuk masing-masing interface yang ada di se
 ![image](https://user-images.githubusercontent.com/91374949/204085649-3de2a982-50f3-4b88-a04b-3294b3411ffc.png)
 
 Kemudian, lakukan hal yang sama pada setiap interface pada device. Berikut adalah pembagiannya.
+
+
+## CIDR
+### Subnetting
+#### A
+
+![image](https://user-images.githubusercontent.com/80830860/204086761-e1d2c6dd-807d-4cbf-8d63-41c09484882b.png)
+
+| Subnet | #1 | #2 | Netmask |
+|--|--|--|--|
+| A1 | Guideau | The Minister | /22 |
+| A2 | The Dauntless | Johan, Phanora | /24 |
+| A3 | The Minister | The Dauntless | /30 |
+| A4 | The Minister | The Order | /30 |
+| A5 | Ashaf | The Order | /26 |
+| A6 | The Order | The Resonance | /30 |
+| A7 | The Witch | The Queen | /30 |
+| A8 | Keith | The Firefist | /24 |
+| A9 | Oakleave | The Firefist | /23 |
+| A10 | The Firefist | The Instrument | /30 |
+| A11 | Helga | The Profound | /25 |
+| A12 | Spendrow | The Profound | /25 |
+| A13 | The Profound | The Instrument | /30 |
+| A14 | Matt Cugat | The Instrument | /25 |
+| A15 | The Instrument | The Resonance | /30 |
+| A16 | The Beast | The Resonance | /30 |
+| A17 | The Magical | The Resonance | /30 |
+| A18 | Haines, Corvekt | The Magical | /23 |
+
+#### B
+
+#### C
+
+#### D
+
+#### E
+
+#### F
+
+#### G
+
+#### H
