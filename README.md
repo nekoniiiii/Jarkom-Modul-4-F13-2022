@@ -308,79 +308,64 @@ Routing dapat dilakukan pada menu Config > Routing > Static pada Router. Contohn
 
 Berikut list Static Route yang digunakan: </br>
 
-- Subnet A5 </br>
+
 **The Resonance**
 ```
-Network 10.35.0.8
-Mask 255.255.255.252
-Next Hop 10.35.0.14
+10.35.0.64/26 via 10.35.0.14
+10.35.0.8/30 via 10.35.0.14
+10.35.8.0/22 via 10.35.0.14
+10.35.0.0/30 via 10.35.0.14
+10.35.2.0/30 via 10.35.0.14
+10.35.0.128/25 via 10.35.0.26
+10.35.0.28/30 via 10.35.0.26
+10.35.0.4/30 via 10.35.0.26
+10.35.4.0/23 via 10.35.0.26
+10.35.0.32/30 via 10.35.0.26
+10.35.1.0/25 via 10.35.0.26
+10.35.1.128/25 via 10.35.0.26
+10.35.6.0/23 via 10.35.0.22
 ```
-
-- Subnet A6 </br>
-**The Resonance**
-```
-Network 10.35.0.64
-Mask 255.255.255.192
-Next Hop 10.35.0.14
-```
-
-- Subnet A7 </br>
 **The Order**
 ```
-Network 0.0.0.0
-Mask 0.0.0.0
-Next Hop 10.35.0.13
+0.0.0.0/0 via 10.35.0.13
+10.35.8.0/22 via 10.35.0.10
+10.35.0.0/30 via 10.35.0.10
+10.35.2.0/30 via 10.35.0.10
 ```
-
-- Subnet A8 </br>
-**The Resonance**
+**The Minister**
 ```
-Network 10.35.0.128
-Mask 255.255.255.128
-Next Hop 10.35.0.26
+0.0.0.0/0 via 10.35.0.9
+10.35.2.0/24 via 10.35.0.2
 ```
-
-- Subnet A11 </br>
-**The Magical**
+**The Daundless**
 ```
-Network 0.0.0.0
-Mask 0.0.0.0
-Next Hop 10.35.0.21
+0.0.0.0/0 via 10.35.0.1
 ```
-
-- Subnet A12 </br>
 **The Instrument**
 ```
-Network 0.0.0.0
-Mask 0.0.0.0
-Next Hop 10.35.0.25
+0.0.0.0/0 via 10.35.0.25
+10.35.0.4/30 via 10.35.0.30
+10.35.4.0/23 via 10.35.0.30
+10.35.1.0/25 via 10.35.0.34
+10.35.1.128/25 via 10.35.0.34
 ```
-
-- Subnet A13 </br>
-**The Resonance**
+**The Firefist**
 ```
-Network 10.35.0.28
-Mask 255.255.255.252
-Next Hop 10.35.0.26
+0.0.0.0/0 via 10.35.0.29
+10.35.0.4/30 via 10.35.3.3
 ```
-
-- Subnet A15 </br>
-**The Resonance**
+**The Queen**
 ```
-Network 10.35.0.32
-Mask 255.255.255.252
-Next Hop 10.35.0.26
+0.0.0.0/0 via 10.35.3.1
 ```
-
-- Subnet A16 </br>
-**The Resonance**
+**The Magical**
 ```
-Network 10.35.6.0
-Mask 255.255.254.0
-Next Hop 10.35.0.22
+0.0.0.0/0 via 10.35.0.21
 ```
-
-
+**The Profound**
+```
+0.0.0.0/0 via 10.35.0.33
+```
 ## CIDR
 ### Subnetting
 #### A
