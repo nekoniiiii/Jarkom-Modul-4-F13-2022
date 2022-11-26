@@ -91,9 +91,35 @@ Kemudian, lakukan hal yang sama pada setiap interface pada device. Berikut adala
 
 #### B
 
+![image](https://user-images.githubusercontent.com/80830860/204087762-262ea643-90f5-4929-925c-a5c27b6a0335.png)
+
+| Subnet | #1 | #2 | Netmask |
+|--|--|--|--|
+| B1 | A2 /24 | A3 /30 | /23 |
+| B2 | A7 /30 | A8 /24 | /23 |
+| B3 | A17 /30 | A18 /23 | /22 |
+| B4 | A11 /25 | A12 /25 | /24 |
+
 #### C
 
+![image](https://user-images.githubusercontent.com/80830860/204088113-7e206fb9-5b1b-4e11-8b23-d77fca99bc9e.png)
+
+| Subnet | #1 | #2 | Netmask |
+|--|--|--|--|
+| C1 | B1 /23 | A1 /22 | /21 |
+| C2 | B2 /23 | A9 /23 | /22 |
+| C3 | B3 /22 | A16 /30 | /21 |
+| C4 | B4 /24 | A13 /30 | /23 |
+
 #### D
+
+![image](https://user-images.githubusercontent.com/80830860/204088171-5f0666f0-f555-460d-9945-4110c51087ae.png)
+
+| Subnet | #1 | #2 | Netmask |
+|--|--|--|--|
+| D1 | C1 /21 | A4 /30 | /20 |
+| D2 | C2 /22 | A10 /30 | /21 |
+| D3 | C4 /23 | A14 /25 | /22 |
 
 #### E
 
@@ -102,3 +128,5 @@ Kemudian, lakukan hal yang sama pada setiap interface pada device. Berikut adala
 #### G
 
 #### H
+
+#### CIDR's Tree
