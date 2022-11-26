@@ -102,7 +102,7 @@ Subnet Mask 255.255.255.252
 - The Minister - Guideau
 ```
 IP Address 10.35.8.1
-255.255.252.0
+Subnet Mask 255.255.252.0
 ```
 - Guideau - The Minister
 ```
@@ -169,12 +169,12 @@ Gateaway 10.35.0.129
 IP Address 10.35.0.29
 Subnet Mask 255.255.255.252
 ```
-
-The Firefist menuju The Instrument
+- The Firefist menuju The Instrument
 ```
 IP Address 10.35.0.30
 Subnet Mask 255.255.255.252
 ```
+
 **Subnet A9**
 - The Firefist menuju Keith dan The Queen
 ```
@@ -190,16 +190,103 @@ Gateaway 10.35.3.1
 - The Queen menuju The Firefist
 ```
 IP Address 10.35.3.3
-255.255.255.0
+Subnet Mask 255.255.255.0
 ```
 
 **Subnet A4**
+- The Queen menuju The Witch
+```
+IP Address 10.35.0.5
+Subnet Mask 255.255.255.252
+```
+- The Witch menuju The Queen
+```
+IP Address 10.35.0.6
+Subnet Mask 255.255.255.252
+Gateaway 10.35.0.5
+```
+
 **Subnet A14**
+- The Firefist menuju Oakleave
+```
+IP Address 10.35.4.1
+Subnet Mask 255.255.254.0
+```
+- Oakleave menuju The Firefist
+```
+IP Address 10.35.4.2
+Subnet Mask 255.255.254.0 
+Gateaway 10.35.4.1
+```
+
 **Subnet A15**
+- The Instrument menuju The Profound
+```
+IP Address 10.35.0.33
+Subnet Mask 255.255.255.252
+```
+- The Profound menuju The Instrument
+```
+IP Address 10.35.0.34
+Subnet Mask 255.255.255.252
+```
+
 **Subnet A17**
+- The Profound menuju Helga
+```
+IP Address 10.35.1.1
+Subnet Mask 255.255.255.128
+```
+- Helga menuju The Profound
+```
+IP Address 10.35.1.2
+Subnet Mask 255.255.255.128
+Gateaway 10.35.1.1
+```
+
 **Subnet A18**
+- The Profound menuju Spendrow
+```
+IP Address 10.35.1.129
+Subnet Mask 255.255.255.128
+```
+- Spendrow menuju The Profound
+```
+IP Address 10.35.1.130
+Subnet Mask 255.255.255.128
+Gateaway 10.35.1.129
+```
+
 **Subnet A11**
+- The Resonance menuju The Magical
+```
+IP Address 10.35.0.21
+Subnet Mask 255.255.255.252
+```
+- The Magical menuju The Resonance
+```
+IP Address 10.35.0.22
+Subnet Mask 255.255.255.252
+```
+
 **Subnet A16**
+- The Magical menuju Coverkt dan Haines
+```
+IP Address 10.35.6.1
+Subnet Mask 255.255.254.0
+```
+- Coverkt menuju The Magical
+```
+IP Address 10.35.6.2
+Subnet Mask 255.255.254.0
+Gateaway 10.35.6.1
+```
+- Haines menuju The Magical
+```
+IP Address 10.35.6.3
+Subnet Mask 255.255.254.0
+Gateaway 10.35.6.1
+```
 
 **Subnet A10**
 - The Resonance - The Beast
