@@ -61,6 +61,160 @@ Berdasarkan pembagian tadi, atur IP untuk masing-masing interface yang ada di se
 
 Kemudian, lakukan hal yang sama pada setiap interface pada device. Berikut adalah pembagiannya. </br>
 
+**Subnet A7**
+- Resonance - The Order
+```
+IP Address 10.35.0.13
+Subnet Mask 255.255.255.252
+```
+- The Order - Resonance
+```
+IP Address 10.35.0.14/30
+Subnet Mask 255.255.255.252
+```
+
+**Subnet A6**
+- The Order - Ashaf
+```
+IP Address 10.35.0.65
+Subnet Mask 255.255.255.192
+```
+- Ashaf - The Order
+```
+IP Address 10.35.0.66
+Subnet Mask 255.255.255.192
+Gateaway 10.35.0.65
+```
+
+**Subnet A5**
+- The Order -The Minister
+```
+IP Address 10.35.0.9
+Subnet Mask 255.255.255.252
+```
+- The Minister - The Order
+```
+IP Address 10.35.0.10
+Subnet Mask 255.255.255.252
+```
+
+**Subnet A1**
+- The Minister - Guideau
+```
+IP Address 10.35.8.1
+255.255.252.0
+```
+- Guideau - The Minister
+```
+IP Address 10.35.8.2
+Subnet Mask 255.255.252.0
+Gateaway 10.35.8.1
+```
+**Subnet A2**
+- The Minister - The Dauntless
+```
+IP Address 10.35.0.1
+Subnet Mask 255.255.255.252
+```
+The Dauntless - The Minister
+```
+IP Address 10.35.0.2
+Subnet Mask 255.255.255.252
+```
+**Subnet A3**
+- The Dauntless - Johan dan Phanora
+```
+IP Address 10.35.2.1
+Subnet Mask 255.255.255.0
+```
+- Johan - The Dauntless
+```
+IP Address 10.35.2.2
+Subnet Mask 255.255.255.0
+Gateaway 10.35.2.1
+```
+- Phanora - The Dauntless
+```
+IP Address 10.35.2.3
+Subnet Mask 255.255.255.0
+Gateaway 10.35.2.1
+```
+**Subnet A12**
+- The Resonance -The Instrument
+```
+IP Address 10.35.0.25
+Subnet Mask 255.255.255.252
+```
+- The Instrument -The Resonance
+```
+IP Address 10.35.0.26
+Subnet Mask 255.255.255.252
+```
+**Subnet A8**
+- The Instrument - Matt Cugat
+```
+IP Address 10.35.0.129
+Subnet Mask 255.255.255.128
+```
+- Matt Cugat - The Instrument
+```
+IP Address 10.35.0.130
+Subnet Mask 255.255.255.128
+Gateaway 10.35.0.129
+```
+
+**Subnet A13**
+- The Instrument -The Firefist
+```
+IP Address 10.35.0.29
+Subnet Mask 255.255.255.252
+```
+
+The Firefist menuju The Instrument
+```
+IP Address 10.35.0.30
+Subnet Mask 255.255.255.252
+```
+**Subnet A9**
+- The Firefist menuju Keith dan The Queen
+```
+IP Address 10.35.3.1
+Subnet Mask 255.255.255.0
+```
+- Keith menuju The Firefist
+```
+IP Address 10.35.3.2
+Subnet Mask 255.255.255.0
+Gateaway 10.35.3.1 
+```
+- The Queen menuju The Firefist
+```
+IP Address 10.35.3.3
+255.255.255.0
+```
+
+**Subnet A4**
+**Subnet A14**
+**Subnet A15**
+**Subnet A17**
+**Subnet A18**
+**Subnet A11**
+**Subnet A16**
+
+**Subnet A10**
+- The Resonance - The Beast
+```
+IP Address 10.35.0.17
+Subnet Mask 255.255.255.252
+```
+- The Beast - The Resonance
+```
+IP Address 10.35.0.18
+Subnet Mask 255.255.255.252
+Gateaway 10.35.0.17
+```
+
+### Routing
 Routing dapat dilakukan pada menu Config > Routing > Static pada Router. Contohnya pada gambar berikut:
 ![static](https://user-images.githubusercontent.com/72701806/204090853-dd9cf5d2-68ce-4153-b7c9-01ea0b4b3cd0.png)
 
