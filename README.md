@@ -658,7 +658,7 @@ auto eth0
 iface eth0 inet static
     address 10.35.65.2
     netmask 255.255.255.252
-    gateway 192.190.65.1
+    gateway 10.35.65.1
 ```
 Oakleave 
 ```
