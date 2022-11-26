@@ -59,7 +59,85 @@ Berdasarkan pembagian tadi, atur IP untuk masing-masing interface yang ada di se
 - Atur IP pada client Ashaf <br>
 ![image](https://user-images.githubusercontent.com/91374949/204085649-3de2a982-50f3-4b88-a04b-3294b3411ffc.png)
 
-Kemudian, lakukan hal yang sama pada setiap interface pada device. Berikut adalah pembagiannya.
+Kemudian, lakukan hal yang sama pada setiap interface pada device. Berikut adalah pembagiannya. </br>
+
+Routing dapat dilakukan pada menu Config > Routing > Static pada Router. Contohnya pada gambar berikut:
+![static](https://user-images.githubusercontent.com/72701806/204090853-dd9cf5d2-68ce-4153-b7c9-01ea0b4b3cd0.png)
+
+
+Berikut list Static Route yang digunakan: </br>
+
+- Subnet A5 </br>
+**The Resonance**
+```
+Network 10.35.0.8
+Mask 255.255.255.252
+Next Hop 10.35.0.14
+```
+
+- Subnet A6 </br>
+**The Resonance**
+```
+Network 10.35.0.64
+Mask 255.255.255.192
+Next Hop 10.35.0.14
+```
+
+- Subnet A7 </br>
+**The Order**
+```
+Network 0.0.0.0
+Mask 0.0.0.0
+Next Hop 10.35.0.13
+```
+
+- Subnet A8 </br>
+**The Resonance**
+```
+Network 10.35.0.128
+Mask 255.255.255.128
+Next Hop 10.35.0.26
+```
+
+- Subnet A11 </br>
+**The Magical**
+```
+Network 0.0.0.0
+Mask 0.0.0.0
+Next Hop 10.35.0.21
+```
+
+- Subnet A12 </br>
+**The Instrument**
+```
+Network 0.0.0.0
+Mask 0.0.0.0
+Next Hop 10.35.0.25
+```
+
+- Subnet A13 </br>
+**The Resonance**
+```
+Network 10.35.0.28
+Mask 255.255.255.252
+Next Hop 10.35.0.26
+```
+
+- Subnet A15 </br>
+**The Resonance**
+```
+Network 10.35.0.32
+Mask 255.255.255.252
+Next Hop 10.35.0.26
+```
+
+- Subnet A16 </br>
+**The Resonance**
+```
+Network 10.35.6.0
+Mask 255.255.254.0
+Next Hop 10.35.0.22
+```
 
 
 ## CIDR
